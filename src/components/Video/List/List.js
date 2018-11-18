@@ -3,7 +3,7 @@ import Item from '../Item/Item';
 
 const List = (props) => {
     const Items = props.videos.map((video) => {
-        return <Item video={video} />
+        return <Item video={video} key={video.videoId} />
     });
 
     return (
