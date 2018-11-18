@@ -6,8 +6,6 @@ import List from './components/Video/List/List'
 
 import YSearch from '../node_modules/youtube-api-search';
 
-const YOUTUBE_API_KEY = 'AIzaSyAxg3h8QHgEx1Hr034KSkWk8MD8mAxFTk8'
-
 class App extends Component {
   state = {videos: []}
 
