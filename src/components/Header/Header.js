@@ -15,9 +15,8 @@ class Header extends Component {
           <h2>NekoTube</h2>
         </div>
         <div>
-          <input onChange={this.onInputChangeHandler}/>
+          <input onChange={this.onInputChangeHandler} value={this.state.keyword}/>
         </div>
-        <p>{this.state.keyword}</p>
       </div>
     );
   }
